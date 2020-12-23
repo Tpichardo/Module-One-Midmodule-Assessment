@@ -21,7 +21,7 @@ return (`Hello ${name}!`)
 * @modifies {global.globalCount}
 */
 function incrementGlobalCount(val) {
-globalThis.globalCount += val
+global.globalCount += val
 }
 /** Multiplies three numbers
 * @param {number} firstNum - The first number

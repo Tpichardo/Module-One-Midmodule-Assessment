@@ -21,9 +21,8 @@ return [...arr, ...arr]
 * @returns {any[]} - The array with the first 3 elements removed
 */
 function removeFirstThreeElements(arr) {
-  let newArray = arr.splice(0, 3)
-  return [newArray]
-  
+return arr.slice(3)
+  //.slice() will remove the elemets and takes in an argument that represents the start of the index which you are returning. Here, I am returning at index 3, and removed 0,1,and 2.
 }
 
 module.exports = {

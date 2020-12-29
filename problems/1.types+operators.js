@@ -11,7 +11,8 @@ return typeof val === 'number'
 * @returns {boolean} - Is val truthy
 */
 function isTruthy(val) {
-return val && true ? true : false 
+return val && true ? true : false
+
 }
 
 
